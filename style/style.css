@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.r-btn{
+    padding: 5px 20px ;
+    background-color: #EE8683 !important;
+    color: #fff !important;
+}
+.bg-sec{
+    background-color: #F8F9FA;
+}
+/* ************* Header Style ************ */
+
+header .element{
+    color: #EE8683;
+    font-weight: bold;
+}
+
+/* ************* Nav Style ************ */
+nav.r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: 0.5 all;
+}
+nav .navbar-brand{
+    font-size: 30px;
+    color: #fff;
+}
+
+.navbar-nav li a {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito',sans-serif;
+}
+
+nav .navbar-nav li{
+    margin-left: 15px;
+}
+
+nav.r-nav.stickyadd{
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+    transition: 1s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand{
+    color: #000;
+    font-size: 40px;
+}
+
+nav.stickyadd .nav-link{
+    color: #000 !important;
+}
+
+nav .hamburger{
+    color:#fff;
+    font-size:40px;
+}
+
+nav.stickyadd .hamburger{
+    color:#000;
+    font-size:40px;
+}
+
+/* ************* Header Style ************ */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+.content-box h4{
+    font-size: 30px;
+}
+.content-box h1{
+    font-size: 52px;
+}
+
+.content-box a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 25px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+.content-box a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s all;
+}
+
+.content-box p{
+    color: #fff;
+}
+
+/* ************* About Us Style ************ */
+
+.about li a{
+    color: #000;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    line-height: 40px;
+    text-align: center;
+    transition: 0.5s;
+}
+.about li a:hover{
+    color: #EE8683;
+}
+
+/* ************* Experience Style ************ */
+
+.exp-class .progress{
+    height: 10px ;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.progress-bar{
+    background-color: #EE8683 !important;
+}
+
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/* ************* Services Style ************ */
+
+.card,.card-header{
+    background-color: #F8F9FA !important;
+}
+
+.card-header{
+    border: none !important;
+}
+
+.services-class .card-header i{
+    font-size: 50px;
+}
+
+
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background-color: #e65f78;
+}
+
+
+/* ************* Testimony Style ************ */
+
+.testimony-sec .testi-item{
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.testimony-sec .testi-item .testi-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimony-sec .testi-item i{
+    color: gray;
+}
+
+.testimony-sec .testi-item .testi-name{
+    font-size: 11px;
+}
+
+/* ************* Work Style ************ */
+.work .card-wrapper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* ************* Contact Style ************ */
+
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact .r-icon a{
+    text-decoration: none;
+    color: #EE8683;
+}
+.contact .r-icon .visit{
+    color: #EE8683;
+}
+.contact form .col-grp{
+    display: flex;
+}
+
+.contact form .em-inp{
+    padding-left: 7px;
+}
+
+/* ************* Contact Style ************ */
+.footer{
+    background-color: #333333;
+}
+
+.footer .r-icon a{
+    font-size: 15px;
+    color: #848484;
+    border: 1px solid #848484;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer .r-icon a:hover{
+    color: #eee;
+    border: 1px solid #eee;
+    transition: 0.5s all;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #848484 !important;
+}
